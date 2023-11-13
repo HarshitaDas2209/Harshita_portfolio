@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Harshita - Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: rgb(0, 0, 33);
+        color: white;
+        font-family: "Poppins", sans-serif;
+      }
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 80px;
+        background-color: rgb(18, 18, 71);
+      }
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+      nav ul li {
+        list-style: none;
+        margin: 0 23px;
+      }
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+      }
+      nav ul li a:hover {
+        color: rgb(128, 128, 161);
+        font-size: 1.02rem;
+      }
+      .left {
+        font-size: 1.5rem;
+      }
+      .firstsec {
+        display: flex;
+        justify-content: space-around;
+        margin: 110px 0;
+        align-items: center;
+      }
+
+      .firstsec > div {
+        width: 30%;
+      }
+      .leftsec {
+        /* background-color: red;
+ */
+        /* width: 34px; */
+        /* margin: 30px 0; */
+        font-size: 2.3rem;
+      }
+      .rightsec img {
+        width: 80%;
+        /* margin:50px 0; */
+        /* background-color: red; */
+        /* width: 34px; */
+      }
+      .purple {
+        color: purple;
+      }
+      main hr {
+        border: 0;
+        background: #9c97f1;
+        height: 1.2px;
+        margin: 60px 84px;
+      }
+      .secondsec {
+        height: 105vh;
+        margin: auto;
+        max-width: 80vw;
+        margin-bottom: 60pxpx;
+      }
+      .secondsec h1 {
+        font-size: 1.9rem;
+      }
+      .text-grey {
+        color: gray;
+      }
+
+      .secondsec .box{
+        background: white;
+        width: 80vw;
+        height:2px;
+        margin:56px 0;
+        display: flex;
+      }
+      .secondsec .vertical{
+        height: 93px;
+        width: 1px;
+        background-color: white;
+        margin:0 190px;
+
+      }
+      .image-top{
+        width:23px;
+        position:relative;
+        top:-32px;
+        left:-9px
+      }
+      .vertical-title{
+position: relative;
+top: 75px;
+width: 150px;
+font-size: 14px;
+      }
+      .vertical-desc{
+position: relative;
+top: 86px;
+color: gray;
+width: 150px;
+font-size: 9px;
+      }
+    footer{
+      background-color:#290829 ;
+      height: 160px;
+
+    }
+    .footer{
+      display: flex;
+      padding: 23px 122px;
+      justify-content:space-evenly ;
+    }
+.footer ul{
+  list-style: none;
+}
+/* .leftsec .btn{
+  padding: ; 
+  
+} */
+.about{
+  /* margin:2px;
+ */
+
+ justify-content: center;
+ display: flex;
+}
+.btn {
+            display: inline-block;
+            padding: 10px 20px;
+            border: 2px solid #031b36; /* Border color */
+            border-radius: 20px; /* Adjust the radius to make it more or less rounded */
+            background-color: #2f56a9;; /* Background color */
+            color: #fff; /* Text color */
+            text-align: center;
+            text-decoration: none;
+            font-size: 16px;
+            cursor: pointer;
+        }
+a{
+    color: #c8acbe;
+    text-decoration: none;
+}
+        .btn:hover {
+            background-color: #752c6f; /* Change the background color on hover */
+        }
+
+        .head{
+          margin-top: 200px;
+          /* justify-content: center; */
+
+        }
+        .content{
+          margin-top: 63px;
+          font-size: 25px;
+        }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Harshita's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="/certificates.html">Certificates</a></li>
+            <li><a href="/achievements.html">Achievements</a></li>
+            <!-- <li><a href="/about.txt">About</a></li> -->
+            <li><a href="/">Projects</a></li>
+            <li><a href="/contact.txt">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="firstsec">
+        <div class="leftsec">
+          My name is <span class="purple"> Harshita </span>
+          <div>and I am a passionate</div>
+          <!-- <div>Web Developer.</div> -->
+          <span id="element"></span>
+          <div class="buttons">
+            <button class="btn"><a href="https://www.linkedin.com/in/harshita-das-241891256">LinkedIn</a></button>
+            <button class="btn"><a href="https://github.com/HarshitaDas2209">Git Hub</a></button>
+          </div>
+        </div>
+        <div class="rightsec">
+          <img src="portfolio.png" alt="" />
+        </div>
+      </section>
+      <hr />
+      <section class="secondsec">
+        <span class="text-grey">What I have done so far</span>
+        <h1>Learning Experience</h1>
+        <div class="box">
+          <div class="vertical">
+            <img src="developer.png" alt="" class="image-top">
+            <div class="vertical-title">C/Python(semester 1)</div>
+            <!-- <div class="vertical-desc">In semester 1 I studied c language and python language </div> -->
+          </div>
+          <div class="vertical">
+            <img src="developer.png" alt="" class="image-top">
+            <div class="vertical-title">C++/OODP(semester 2)</div>
+            <!-- <div class="vertical-desc">sdxfcgvhbjkj.,jmnbfd trcvb jygdxfcv kfchgvhbjnk</div> -->
+          </div>
+          <div class="vertical">
+            <img src="developer.png" alt="" class="image-top">
+            <div class="vertical-title">Java/Web Development/DSA(semester 3)</div>
+            <!-- <div class="vertical-desc">sdxfcgvhbjkj.,jmnbfd trcvb jygdxfcv kfchgvhbjnk</div> -->
+          </div>
+          <!-- <div class="vertical">
+            <img src="developer.png" alt="" class="image-top">
+            <div class="vertical-title">HTML Developer(2010-2012)</div>
+            <div class="vertical-desc">sdxfcgvhbjkj.,jmnbfd trcvb jygdxfcv kfchgvhbjnk</div>
+          </div> -->
+          <!-- <div class="vertical"></div>
+          <div class="vertical"></div>
+          <div class="vertical"></div> -->
+          <!-- <div class="vertical"></div>
+          <div class="vertical"></div> -->
+        </div>
+
+          <div class="about">
+            <h1 class="head">About Me</h1>
+            
+          </div>
+          <div class="content">I'm a <span class="purple">2nd year </span> student at SRM University, pursuing Bachelor Of Technology in the field of<span class="purple"> Computer Science </span>under Internet of Things as my Specialization. I'm a web development enthusiast. I am also the associate of <span class="purple"> Next Tech Lab </span>in Web Development domain.</div>
+        </section>
+    </main>
+    <footer>
+      <div class="footer">
+        <div class="footer-first">
+          <h3>Harshita's Developer Portfolio</h3>
+        </div>
+     
+        <div class="footer-second">
+          <ul>
+            <li><a href="paper.html">Paper/Poster</a></li>
+            <li><a href="hackerrank.html">Hackerrank</a></li>
+            <li><a href="gpa.html">GPA</a></li>
+            <!-- <li>home</li> -->
+          </ul>
+        </div>
+        <div class="footer-third">
+          <!-- <ul>
+            <li>home</li>
+            <li>home</li>
+            <li>home</li>
+            <li>home</li>
+          </ul>
+        </div>
+        <div class="footer-fourth">
+          <ul>
+            <li>home</li>
+            <li>home</li>
+            <li>home</li>
+            <li>home</li>
+          </ul> -->
+        </div>
+      </div>
+
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Web Developer"],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
